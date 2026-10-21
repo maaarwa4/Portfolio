@@ -327,11 +327,11 @@
     }
 
     .hero-photo {
-      width: 200px;
-      height: 200px;
+      width: 260px;
+      height: 260px;
       border-radius: 50%;
       object-fit: cover;
-      object-position: center top;
+      object-position: center 15%;
       border: 3px solid var(--photo-border);
       box-shadow: 0 0 0 6px var(--glow), 0 20px 60px rgba(0,0,0,0.25);
       transition: border-color 0.3s, box-shadow 0.3s;
@@ -1163,7 +1163,7 @@
     @media (max-width: 900px) {
       .hero-content { flex-direction: column-reverse; gap: 32px; }
       .hero-photo-wrap { align-self: center; }
-      .hero-photo { width: 160px; height: 160px; }
+      .hero-photo { width: 200px; height: 200px; }
       .projects-grid { grid-template-columns: 1fr 1fr; }
     }
 
